@@ -1,6 +1,6 @@
 function [p,t,e,ia] = pmesh(pv, hmax, nref)
 %PMESH  Delaunay refinement mesh generator.
-% UC Berkeley Math 228B, Per-Olof Persson <persson@berkeley.edu>
+%w/ help from Per-Olof Persson <persson@berkeley.edu>
 
 p = [];
 for i = 1:size(pv,1)-1

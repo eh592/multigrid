@@ -1,7 +1,6 @@
 function tplot(p, t, u)
-%TPLOT Plot triangular mesh P,T and, optionally, solution U
-
-% UC Berkeley Math 228B, Per-Olof Persson <persson@berkeley.edu>
+% TPLOT Plot triangular mesh P,T and, optionally, solution U
+% code from Per-Olof Persson <persson@berkeley.edu>
     
     clf
     if nargin < 3

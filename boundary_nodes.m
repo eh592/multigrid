@@ -1,7 +1,7 @@
 function e = boundary_nodes(t)
 %BOUNDARY_NODES Find boundary nodes E of triangulation T
     
-% UC Berkeley Math 228B, Per-Olof Persson <persson@berkeley.edu>
+% code from Per-Olof Persson <persson@berkeley.edu>
 
     edges = [t(:,[1,2]);
              t(:,[2,3]);
