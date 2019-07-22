@@ -1,4 +1,6 @@
 function [Ak,bk] = assembly(p)
+#builds the assembly matrix and returns associated vector.  
+  
 %Here we require the entire vectors of p
 %we only allow a kth triangle of our mesh 
 Ak = sparse(zeros(3));
