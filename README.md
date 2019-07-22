@@ -6,5 +6,5 @@ Although in two dimensions, MATLAB's backslash linear systems solver is superior
 
 So this 2 dimensional solver is to demonstrate the convergence properties guarenteed by theory on a 'model' problem.
 
-
+start with testMulti.m for more information
 
